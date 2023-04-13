@@ -26,6 +26,8 @@ jobs:
 
     - name: Add NeoGeo UniBios
       run: |
+        if [ ! -f db.json ]; then exit 0; fi
+
         python3 .github/add_neogeo_unibios.py
         git add bios_db.json bios_db.json.zip
         git commit -m "Creating bios_db DB"

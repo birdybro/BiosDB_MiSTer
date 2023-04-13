@@ -4,6 +4,9 @@ import zipfile
 with open('db.json', 'r') as file:
     data = json.load(file)
 
+del data['base_files_url']
+del data['db_url']
+
 data['zips'] = {
     "neogeo_unibios": {
         "contents_file": {
