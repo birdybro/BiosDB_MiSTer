@@ -1,4 +1,5 @@
 import json
+import zipfile
 
 with open('db.json', 'r') as file:
     data = json.load(file)
@@ -36,3 +37,6 @@ data['zips'] = {
 
 with open('bios_db.json', 'w') as output_file:
     json.dump(data, output_file)
+
+with zipfile.ZipFile('bios_db.json.zip', 'w', zipfile.ZIP_DEFLATED) as zipped_file:
+    zipped_file.writestr('bios_db.json', json.dumps(data))
