@@ -15,8 +15,6 @@ data['zips'] = {
             "url": "http://unibios.free.fr/download/uni-bios-40.zip"
         },
         "description": "Extracting NeoGeo UniBios from http://unibios.free.fr",
-        "files_count": 1,
-        "folders_count": 0,
         "internal_summary": {
             "files": {
                 "|games/NEOGEO/uni-bios.rom": {
@@ -34,7 +32,6 @@ data['zips'] = {
             "folders": {}
         },
         "kind": "extract_single_files",
-        "raw_files_size": 131072
     }
 }
 
