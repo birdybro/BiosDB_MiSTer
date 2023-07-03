@@ -23,6 +23,7 @@ games/NEOGEO/000-lo.lo, https://archive.org/download/mister-console-bios-pack_th
 games/NEOGEO/neo-epo.sp1, https://archive.org/download/mister-console-bios-pack_theypsilon/NeoGeo.zip/neo-epo.sp1-AES_BIOS, 131072, b11751ad42879c461d64ad2b7b2b0129, bios, overwrite:false,
 games/NEOGEO/sfix.sfix, https://archive.org/download/mister-console-bios-pack_theypsilon/NeoGeo.zip/sfix.sfix, 131072, aa2b5d0eae4158ffc0d7d63481c7830b, bios, overwrite:false,
 games/NEOGEO/sp-s2.sp1, https://archive.org/download/mister-console-bios-pack_theypsilon/NeoGeo.zip/sp-s2.sp1-MVS_BIOS, 131072, 2968f59f44bf328639aa79391aeeeab4, bios, overwrite:false,
+games/NEOGEO/top-sp1.bin, https://archive.org/download/mister-console-bios-pack_theypsilon/NeoGeoCD.zip/top-sp1.bin, 524288, 122aee210324c72e8a11116e6ef9c0d0, bios, overwrite:false,
 games/NES/boot0.rom, https://archive.org/download/mister-console-bios-pack_theypsilon/NES.zip/fds-bios.rom, 8192, ca30b50f880eb660a320674ed365ef7a, bios, overwrite:false,
 games/PC8801/boot.rom, https://archive.org/download/mister-console-bios-pack_theypsilon/PC88.zip/PC8801%20MKII%20SR%20BIOS.rom, 393216, f1ce4d5f83717093982e5f75516b8f3c, bios, overwrite:false,
 games/PSX/boot.rom, https://archive.org/download/mister-console-bios-pack_theypsilon/PSX.zip/SCPH7001.BIN, 524288, 1e68c231d0896b7eadcad1d7d8e76129, bios, overwrite:false,
