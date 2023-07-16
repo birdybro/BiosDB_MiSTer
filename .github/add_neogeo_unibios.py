@@ -29,11 +29,13 @@ data['zips'] = {
                     "zip_path": "uni-bios.rom"
                 }
             },
-            "|games/NEOGEO": {
-                "tags": [
-                    data['tag_dictionary']['games'],
-                    data['tag_dictionary']['neogeo']
-                ]
+            "folders": {
+                "|games/NEOGEO": {
+                    "tags": [
+                        data['tag_dictionary']['games'],
+                        data['tag_dictionary']['neogeo']
+                    ]
+                }
             }
         },
         "kind": "extract_single_files",
