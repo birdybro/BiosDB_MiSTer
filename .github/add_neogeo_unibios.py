@@ -29,7 +29,44 @@ data['zips'] = {
                     "zip_path": "uni-bios.rom"
                 }
             },
-            "folders": {}
+            "|games/NEOGEO": {
+                "tags": [
+                    data['tag_dictionary']['games'],
+                    data['tag_dictionary']['neogeo']
+                ]
+            }
+        },
+        "kind": "extract_single_files",
+    },
+    "neogeo_unibioscd": {
+        "contents_file": {
+            "hash": "e2ec14752f65aef00fc33e68cf2fc301",
+            "size": 101498,
+            "url": "http://unibios.free.fr/download/uni-bioscd-33.zip"
+        },
+        "description": "Extracting NeoGeo CD UniBios from http://unibios.free.fr",
+        "internal_summary": {
+            "files": {
+                "|games/NeoGeo-CD/uni-bioscd.rom": {
+                    "hash": "08ca8b2dba6662e8024f9e789711c6fc",
+                    "size": 524288,
+                    "tags": [
+                        data['tag_dictionary']['bios'],
+                        data['tag_dictionary']['games'],
+                        data['tag_dictionary']['neogeo']
+                    ],
+                    "zip_id": "neogeo_unibioscd",
+                    "zip_path": "uni-bioscd.rom"
+                }
+            },
+            "folders": {
+                "|games/NeoGeo-CD": {
+                    "tags": [
+                        data['tag_dictionary']['games'],
+                        data['tag_dictionary']['neogeo']
+                    ]
+                }
+            }
         },
         "kind": "extract_single_files",
     }
