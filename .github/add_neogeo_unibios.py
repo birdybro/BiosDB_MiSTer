@@ -31,6 +31,7 @@ data['zips'] = {
             },
             "folders": {
                 "|games/NEOGEO": {
+                    "zip_id": "neogeo_unibios",
                     "tags": [
                         data['tag_dictionary']['games'],
                         data['tag_dictionary']['neogeo']
@@ -63,6 +64,7 @@ data['zips'] = {
             },
             "folders": {
                 "|games/NeoGeo-CD": {
+                    "zip_id": "neogeo_unibioscd",
                     "tags": [
                         data['tag_dictionary']['games'],
                         data['tag_dictionary']['neogeo']
